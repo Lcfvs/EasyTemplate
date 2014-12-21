@@ -1,0 +1,19 @@
+{
+  "author": "Lcf.vs <michael.rouges@gmail.com>",
+  "name": "EasyTemplate",
+  "description": "A simple cross-platform Node.js template manager",
+  "version": "0.2.0",
+  "main": "index.js",
+  "version": "0.1",
+  "engines": {
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Lcfvs/EasyTemplate"
+  },
+  "dependencies": {
+    "mime-magic": "5.14.0"
+  },
+  "devDependencies": {}
+}
