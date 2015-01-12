@@ -45,7 +45,6 @@ parse = function parse(SERVER, request, response, fullname, path, extension) {
     
     fs.stat(file, function (error, stats) {
         if (!stats || !stats.isFile()) {
-    console.log(SERVER.pathname)
             return notFound(SERVER, request, response);
         }
         
